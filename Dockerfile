@@ -1,6 +1,6 @@
 
 # long term support for NodeJs
-FROM node:carbon
+FROM node
 
 # create app directory
 WORKDIR /usr/src/app
