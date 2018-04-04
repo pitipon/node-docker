@@ -1,11 +1,10 @@
-##### Objective
+###### Objective
 Simple example of NodeJS with Docker
 
-##### How to use this image
+###### How to use this image
 Create a Dockerfile in your Node.js app project
 
 ```
-# long term support for NodeJs
 FROM node
 
 # create app directory
@@ -37,7 +36,7 @@ $ docker run -p 80:8080 -d --name my-running-app my-nodejs-app
 - - -
 
 
-##### Test with hello world docker 
+###### Test with hello world docker 
 https://hub.docker.com/r/pitipon/node-docker/
 ```
 docker run -p 49160:8080 -d pitipon/node-docker
